@@ -1,0 +1,40 @@
+.table-container {
+  width: 100%;
+}
+
+.table-container table {
+  width: 100%;
+}
+
+.tabs-light {
+  display: flex;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.tabs-light button {
+  flex: 1;
+  background: transparent;
+  border: none;
+  padding: 12px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  color: var(--text-secondary);
+  cursor: pointer;
+  border-bottom: 2px solid transparent;
+}
+
+.tabs-light button.active {
+  color: var(--accent-color);
+  border-bottom-color: var(--accent-color);
+}
+
+.tabs-light button:hover:not(.active) {
+  background: #f8fafc;
+}
+
+.p-4 { padding: 16px; }
+.text-center { text-align: center; }
+
+.split-table th, .split-table td {
+  width: 12.5%;
+}
